@@ -1,5 +1,6 @@
 .board {
     outline: 2px solid rgb(140, 131, 196);
+    background-color: solid red;
 
 }
 
