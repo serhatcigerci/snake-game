@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import Board from './Board/Board.jsx';
+
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <board></board>
+      <Board></Board>
     </div>
   );
 }
