@@ -20,9 +20,11 @@ window.requestAnimationFrame(main)
 
 function update() {
 updateSnake()
+updateFood()
 }
 
 function draw() {
     gameBoard.innerHTML = ''
-drawSnake(gameBoard)
+    drawFood(gameBoard)
+    drawSnake(gameBoard)
 }
